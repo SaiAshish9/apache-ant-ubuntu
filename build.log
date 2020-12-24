@@ -1,0 +1,86 @@
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@67b92f0a
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@2b9627bc
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@2b9627bc
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@27f723
+--- MESSAGE LOGGED
+  [javadoc] Skipping /home/saiashish9/eclipse-workspace/ant.xml since it is no directory.
+--- MESSAGE LOGGED
+fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace with patternSet{ includes: [*.xml] excludes: [] }
+--- MESSAGE LOGGED
+  [javadoc] Generating Javadoc
+--- MESSAGE LOGGED
+  [javadoc] Executing '/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc' with arguments:
+'-d'
+'/home/saiashish9/eclipse-workspace/docdir'
+'-doctitle'
+'
+
+'
+'-bottom'
+'
+  <h1>copyright</h1>
+'
+'-classpath'
+'/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-apache-bcel.jar'
+'-version'
+'-author'
+'-sourcepath'
+'/home/saiashish9/eclipse-workspace/ant.xml'
+'/home/saiashish9/eclipse-workspace/ant.xml'
+
+The ' characters around the executable and arguments are
+not part of the command.
+--- MESSAGE LOGGED
+  [javadoc] Javadoc execution
+--- MESSAGE LOGGED
+Execute:Java13CommandLauncher: Executing '/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc' with arguments:
+'-d'
+'/home/saiashish9/eclipse-workspace/docdir'
+'-doctitle'
+'
+
+'
+'-bottom'
+'
+  <h1>copyright</h1>
+'
+'-classpath'
+'/usr/share/ant/lib/ant-launcher.jar:/usr/share/ant/lib/ant-junit4.jar:/usr/share/ant/lib/ant-junit.jar:/usr/share/ant/lib/ant-apache-oro.jar:/usr/share/ant/lib/ant-commons-net.jar:/usr/share/ant/lib/ant.jar:/usr/share/ant/lib/ant-apache-xalan2.jar:/usr/share/ant/lib/ant-apache-regexp.jar:/usr/share/ant/lib/ant-jsch.jar:/usr/share/ant/lib/ant-jdepend.jar:/usr/share/ant/lib/ant-antlr.jar:/usr/share/ant/lib/ant-apache-resolver.jar:/usr/share/ant/lib/ant-jmf.jar:/usr/share/ant/lib/ant-commons-logging.jar:/usr/share/ant/lib/ant-swing.jar:/usr/share/ant/lib/ant-apache-log4j.jar:/usr/share/ant/lib/ant-testutil.jar:/usr/share/ant/lib/ant-apache-bsf.jar:/usr/share/ant/lib/ant-xz.jar:/usr/share/ant/lib/ant-javamail.jar:/usr/share/ant/lib/ant-apache-bcel.jar'
+'-version'
+'-author'
+'-sourcepath'
+'/home/saiashish9/eclipse-workspace/ant.xml'
+'/home/saiashish9/eclipse-workspace/ant.xml'
+
+The ' characters around the executable and arguments are
+not part of the command.
+--- MESSAGE LOGGED
+--- MESSAGE LOGGED
+  [javadoc] 1 error
+  [javadoc] javadoc: error - Illegal package name: "/home/saiashish9/eclipse-workspace/ant.xml"
+--- MESSAGE LOGGED
+  [javadoc] No javadoc created, no need to post-process anything
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@27f723
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@255b53dc
+--- MESSAGE LOGGED
+     [echo] Hello World xyz.com
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@255b53dc
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@1dd92fe2
+--- MESSAGE LOGGED
+    [mkdir] Skipping /home/saiashish9/eclipse-workspace/newDirectory because it already exists.
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@1dd92fe2
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@4f9a3314
+--- MESSAGE LOGGED
+Adding reference: xmlfiles
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@4f9a3314
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@564718df
+--- MESSAGE LOGGED
+fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace with patternSet{ includes: [*.xml] excludes: [] }
+--- MESSAGE LOGGED
+     [echo]  ant.xml 
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@564718df
+<< TARGET FINISHED -- another
+another:  duration 0 seconds
+< BUILD FINISHED
+
+BUILD SUCCESSFUL
