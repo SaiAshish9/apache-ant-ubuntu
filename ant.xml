@@ -12,8 +12,8 @@
 
 <record name="build.log" loglevel="debug" append="false" />
 <delete dir="./docdir"/>
-<javadoc sourcepath="ant.xml" destdir="./docdir">
-<fileset dir="." includes="*.xml" />
+<javadoc sourcepath="./" destdir="./docdir">
+<fileset dir="."  />
 <doctitle>
   <![CDATA[<h1>test</h1>]]>
 </doctitle>

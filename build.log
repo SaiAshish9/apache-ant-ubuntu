@@ -3,15 +3,21 @@
 <<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@2b9627bc
 >>> TASK STARTED -- org.apache.tools.ant.UnknownElement@27f723
 --- MESSAGE LOGGED
-  [javadoc] Skipping /home/saiashish9/eclipse-workspace/ant.xml since it is no directory.
+  [javadoc] scanning /home/saiashish9/eclipse-workspace/ant for packages.
 --- MESSAGE LOGGED
-fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace with patternSet{ includes: [*.xml] excludes: [] }
+dirset: Setup scanner in dir /home/saiashish9/eclipse-workspace/ant with patternSet{ includes: [**] excludes: [] }
+--- MESSAGE LOGGED
+  [javadoc] /home/saiashish9/eclipse-workspace/ant contains source files in the default package, you must specify them as source files not packages.
+--- MESSAGE LOGGED
+  [javadoc] /home/saiashish9/eclipse-workspace/ant doesn't contain any packages, dropping it.
+--- MESSAGE LOGGED
+fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace/ant with patternSet{ includes: [**/*.java] excludes: [] }
 --- MESSAGE LOGGED
   [javadoc] Generating Javadoc
 --- MESSAGE LOGGED
   [javadoc] Executing '/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc' with arguments:
 '-d'
-'/home/saiashish9/eclipse-workspace/docdir'
+'/home/saiashish9/eclipse-workspace/ant/docdir'
 '-doctitle'
 '
 
@@ -25,8 +31,8 @@ fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace with patternSet
 '-version'
 '-author'
 '-sourcepath'
-'/home/saiashish9/eclipse-workspace/ant.xml'
-'/home/saiashish9/eclipse-workspace/ant.xml'
+'/home/saiashish9/eclipse-workspace/ant'
+'/home/saiashish9/eclipse-workspace/ant/abc.java'
 
 The ' characters around the executable and arguments are
 not part of the command.
@@ -35,7 +41,7 @@ not part of the command.
 --- MESSAGE LOGGED
 Execute:Java13CommandLauncher: Executing '/usr/lib/jvm/java-11-openjdk-amd64/bin/javadoc' with arguments:
 '-d'
-'/home/saiashish9/eclipse-workspace/docdir'
+'/home/saiashish9/eclipse-workspace/ant/docdir'
 '-doctitle'
 '
 
@@ -49,38 +55,74 @@ Execute:Java13CommandLauncher: Executing '/usr/lib/jvm/java-11-openjdk-amd64/bin
 '-version'
 '-author'
 '-sourcepath'
-'/home/saiashish9/eclipse-workspace/ant.xml'
-'/home/saiashish9/eclipse-workspace/ant.xml'
+'/home/saiashish9/eclipse-workspace/ant'
+'/home/saiashish9/eclipse-workspace/ant/abc.java'
 
 The ' characters around the executable and arguments are
 not part of the command.
 --- MESSAGE LOGGED
+  [javadoc] Loading source file /home/saiashish9/eclipse-workspace/ant/abc.java...
 --- MESSAGE LOGGED
-  [javadoc] 1 error
-  [javadoc] javadoc: error - Illegal package name: "/home/saiashish9/eclipse-workspace/ant.xml"
+  [javadoc] Constructing Javadoc information...
 --- MESSAGE LOGGED
-  [javadoc] No javadoc created, no need to post-process anything
+  [javadoc] Creating destination directory: "/home/saiashish9/eclipse-workspace/ant/docdir/"
+--- MESSAGE LOGGED
+  [javadoc] Standard Doclet version 11.0.9.1
+--- MESSAGE LOGGED
+  [javadoc] Building tree for all the packages and classes...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/com/abc/abc.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/com/abc/package-summary.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/com/abc/package-tree.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/constant-values.html...
+--- MESSAGE LOGGED
+  [javadoc] Building index for all the packages and classes...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/overview-tree.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/index-all.html...
+--- MESSAGE LOGGED
+  [javadoc] Building index for all classes...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/allclasses-index.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/allpackages-index.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/deprecated-list.html...
+--- MESSAGE LOGGED
+  [javadoc] Building index for all classes...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/allclasses.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/allclasses.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/index.html...
+--- MESSAGE LOGGED
+  [javadoc] Generating /home/saiashish9/eclipse-workspace/ant/docdir/help-doc.html...
 <<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@27f723
->>> TASK STARTED -- org.apache.tools.ant.UnknownElement@255b53dc
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@51b7e5df
 --- MESSAGE LOGGED
      [echo] Hello World xyz.com
-<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@255b53dc
->>> TASK STARTED -- org.apache.tools.ant.UnknownElement@1dd92fe2
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@51b7e5df
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@18a70f16
 --- MESSAGE LOGGED
-    [mkdir] Skipping /home/saiashish9/eclipse-workspace/newDirectory because it already exists.
-<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@1dd92fe2
->>> TASK STARTED -- org.apache.tools.ant.UnknownElement@4f9a3314
+    [mkdir] Skipping /home/saiashish9/eclipse-workspace/ant/newDirectory because it already exists.
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@18a70f16
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@4206a205
 --- MESSAGE LOGGED
 Adding reference: xmlfiles
-<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@4f9a3314
->>> TASK STARTED -- org.apache.tools.ant.UnknownElement@564718df
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@4206a205
+>>> TASK STARTED -- org.apache.tools.ant.UnknownElement@4d826d77
 --- MESSAGE LOGGED
-fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace with patternSet{ includes: [*.xml] excludes: [] }
+fileset: Setup scanner in dir /home/saiashish9/eclipse-workspace/ant with patternSet{ includes: [*.xml] excludes: [] }
 --- MESSAGE LOGGED
      [echo]  ant.xml 
-<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@564718df
+<<< TASK FINISHED -- org.apache.tools.ant.UnknownElement@4d826d77
 << TARGET FINISHED -- another
-another:  duration 0 seconds
+another:  duration 2 seconds
 < BUILD FINISHED
 
 BUILD SUCCESSFUL
